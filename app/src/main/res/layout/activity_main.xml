@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="268dp"
+        android:text="Swords"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="139dp"
+        android:layout_height="109dp"
+        android:text="Weapons" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="135dp"
+        android:layout_toEndOf="@+id/button"
+        android:text="Armor" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="138dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_toEndOf="@+id/button"
+        android:text="Accessories" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="271dp"
+        android:text="Axes" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="273dp"
+        android:text="Daggers"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="273dp"
+        android:text="Maces" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="273dp"
+        android:text="Staff" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="272dp"
+        android:text="Bows" />
+</RelativeLayout>
